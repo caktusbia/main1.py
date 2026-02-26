@@ -1,4 +1,13 @@
 def classificar_problema(texto):
+    """
+    Classifica um problema técnico baseado em palavras-chave.
+    
+    Args:
+        texto (str): Descrição do problema técnico
+        
+    Returns:
+        dict: Dicionário com a categoria do problema identificado
+    """
     texto = texto.lower()
 
     if "valvula" in texto:
