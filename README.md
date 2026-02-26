@@ -8,6 +8,7 @@ def classificar_problema(texto):
     else:
         return {"categoria": "Não identificado"}
 
+
 if __name__ == "__main__":
     entrada = input("Descreva o problema técnico: ")
     resultado = classificar_problema(entrada)
